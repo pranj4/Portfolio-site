@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
     {
       title: "PhishGuard AI",
       description:
-"Built two specialized AI agents (email analyzer + link verifier) using LangGraph orchestration and Ollama-hosted LLM for finding Phishing mails. • Designed Streamlit GUI enabling real-time email risk scoring with color-coded alerts, reducing manual analysis time by 70 percent for security teams.",
+        "Built two specialized AI agents (email analyzer + link verifier) using LangGraph orchestration and Ollama-hosted LLM for finding Phishing mails. • Designed Streamlit GUI enabling real-time email risk scoring with color-coded alerts, reducing manual analysis time by 70 percent for security teams.",
       image: "https://via.placeholder.com/400x300",
       technologies: ["Python", "LangGraph", "Ollama", "Streamlit", "FastAPI"],
       github: "https://github.com/pranj4/PhishGuard-AI",
@@ -151,21 +151,22 @@ When you're done, you can generate and download nice-looking PDF invoices.`,
                 date: "July 2025 - Present",
                 description:
                   "Building modern, responsive web applications using React, TypeScript, and Tailwind CSS. Collaborated with designers and backend engineers to deliver high-quality products.",
-
               },
               {
                 role: "Full-Stack Developer Intern",
                 company: "Zeptik",
                 date: "Dec 2024 - Apr 2025",
                 description: `Integrated custom APIs with frontend components for features like user profile updates, authentication, and debugged and resolved API-related issues to ensure seamless communication between frontend and backend.`,
-                certificate: "https://drive.google.com/file/d/1_uEgdf9ZuIc0NejlZi6KjwcGYEmhklrH/view?usp=sharing",
+                certificate:
+                  "https://drive.google.com/file/d/1_uEgdf9ZuIc0NejlZi6KjwcGYEmhklrH/view?usp=sharing",
               },
               {
                 role: "Software Developer Intern",
                 company: "Iqvia",
                 date: "",
                 description: `Trained and worked on IQVIA’s product OCE as Salesforce admin on live project related to pharma companies like Corium ,Mission etc. deployment pipelines using tools like Jenkins,Git and other services on demand of client.Managed user permissions and Identity and Access Management (IAM) to safeguard sensitive information within the Salesforce ecosystem`,
-                certificate: "https://drive.google.com/file/d/19o_yjW70jXGfqZ9ofhjh9SBCab7rQ4Fj/view?usp=drive_link",
+                certificate:
+                  "https://drive.google.com/file/d/19o_yjW70jXGfqZ9ofhjh9SBCab7rQ4Fj/view?usp=drive_link",
               },
             ].map((exp, idx) => (
               <div
@@ -220,7 +221,11 @@ When you're done, you can generate and download nice-looking PDF invoices.`,
               }}
             />
             <p className="mt-4 text-gray-600 dark:text-gray-300 text-center text-sm">
-              Total contributions this year: <span className="font-semibold text-orange-600 dark:text-orange-400">1,200+</span> commits across various projects.
+              Total contributions this year:{" "}
+              <span className="font-semibold text-orange-600 dark:text-orange-400">
+                1,200+
+              </span>{" "}
+              commits across various projects.
             </p>
           </div>
         </div>
