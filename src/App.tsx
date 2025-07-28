@@ -14,18 +14,15 @@ function App() {
   const [theme] = useState<"light" | "dark">(localStorage.theme || "light");
 
   useEffect(() => {
-    // Initial theme setup when the app loads
-    if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
+    // Force light as default unless user explicitly set dark
+    if (localStorage.theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light"); // Save as light
     }
   }, []);
-
+  
   return (
     <div className={`min-h-screen ${theme === "dark" ? "dark" : ""}`}>
       <Navbar />
