@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
-            className="mt-6 text-lg text-black dark:text-black max-w-2xl"
+            className="mt-6 text-lg text-black dark:text-white max-w-2xl"
           >
             Weaving AI, Code, and Imagination into Tomorrow’s Web.
             <br />
