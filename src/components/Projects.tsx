@@ -10,7 +10,16 @@ const Projects: React.FC = () => {
       image: "https://via.placeholder.com/400x300",
       technologies: ["Python", "LangGraph", "Ollama", "Streamlit", "FastAPI"],
       github: "https://github.com/pranj4/PhishGuard-AI",
-      deploy: "https://phishguard-ai.streamlit.app",
+      deploy: "#https://phishguard-ai.streamlit.app",
+    },
+    {
+      title: "Cover Letter Generator LLM ",
+      description:
+        "Cover Letter Generator is a web application designed to help job seekers quickly create personalized cover letters,ideal for anyone who wants to save time and improve the quality of their job applications",
+      image: "https://via.placeholder.com/400x300",
+      technologies: ["Python", "LangGraph", "Ollama", "Streamlit", "FastAPI"],
+      github: "https://github.com/pranj4/Cover-letter-generator",
+      deploy: "https://coverletterllm.pranj.dev/",
     },
     {
       title: " Document Classification & Invoice Extraction API",
@@ -19,7 +28,7 @@ const Projects: React.FC = () => {
       image: "https://via.placeholder.com/400x300",
       technologies: ["Python", "NLP", "Model Training", "FastAPI"],
       github: "https://github.com/pranj4/Document-Classifier-",
-      deploy: "https://document-classifier-api.herokuapp.com",
+      deploy: "https://www.loom.com/share/835abccbcb684da88fb17496854482e5?sid=5f85f110-3d71-4580-97c1-49daa340c6e3",
     },
     {
       title: "AI Virtual Assistant ",
